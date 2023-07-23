@@ -3,6 +3,40 @@
     padding: 0;
 }
 
-#body{
-    background-image: url(C:\Users\punit\Desktop\Oasis Infobyte\Level 2\Task 2);
+.ag-pic{
+    background-image: url(/Level_2/Task_2/ag.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.rd-btn{
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 2.5em;
+    right: 2.6em;
+    cursor: pointer;
+}
+.rd-btn:hover{
+    background: transparent;
+    color: white;
+    transition: 0.5s;
+}
+
+#na{
+    position: absolute;
+    color: white;
+    margin: 20px 20px;
+}
+
+
+#na h2{
+    padding: 0.6rem;
 }
