@@ -23,11 +23,13 @@
     bottom: 2.5em;
     right: 2.6em;
     cursor: pointer;
+    transition: 1s all;
 }
 .rd-btn:hover{
     background: transparent;
     color: white;
-    transition: 0.5s;
+
+    
 }
 
 #na{
@@ -39,4 +41,48 @@
 
 #na h2{
     padding: 0.6rem;
+}
+
+#sec-1{
+    position: relative;
+    height: 100vh;
+    background-color: rgb(62, 62, 110)
+}
+#sec-1-1{
+    display: flex;
+}
+#sec-1-1 img{
+    margin-top: 50px;
+    border-radius: 100px;
+    width: 25%;
+    height: 200px;
+}
+
+
+p{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.intro{
+    /* position: absolute; */
+    padding: 15px;
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgb(104, 104, 144);
+    
+}
+.about{
+    margin: 15px 15px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: white;
+    height: 85vh;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 15px;
+    background-color: rgb(31, 29, 29);
 }
