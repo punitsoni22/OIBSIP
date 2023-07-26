@@ -25,23 +25,6 @@ function addTask(){
     inputList.value ="";
 }
 
-const task_input = document.createElement('input');
-task_input.classList.add('text');
-task_input,type = 'text';
-task_input.value = "task";
-task_input.setAttribute('readonly', 'readonly');
-task_input.appendChild(task_input);
-
-task_edit.addEventListener('click', (e) => {
-    if(task_edit.innerText.toLowercase() === "edit"){
-        task_edit.innerText = 'Save';
-        task_input.removeAttribute("readonly");
-        task_input.focus();
-    } else{
-        task_edit.innerText = 'Edit';
-        task_input.setAttribute("readonly", "readonly");
-    }
-})
 
 listContainer.addEventListener("click", function(e){
     if(e.target.tagName === 'LI'){
