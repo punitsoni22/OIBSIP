@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.vk-pic{
+    background: url("/Level_2/Task_2/vk-bg.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.rd-more{
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(350deg,rgb(219, 55, 55),rgb(199, 147, 51));
+    transition: 1s;
+}
+
+.rd-more:hover{
+    padding: 1.2rem;
+    background: linear-gradient(350deg,rgb(158, 37, 37),rgb(162, 115, 29));
+}
+#title{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    padding: 20px;
+}
+.vk-name1{
+    padding-top: 100px;
+    
+}
+.vk-name3{
+    color: grey;
+    padding-left: 100px;
+}
+#title img{
+    width: 200px;
+}
